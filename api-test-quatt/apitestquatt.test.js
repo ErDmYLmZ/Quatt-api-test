@@ -7,7 +7,6 @@ const TOKEN = process.env.USER_TOKEN;
 describe('Users', () => {
     let userId;
 
-
     describe('POST -Create a new user', () => {
         it('/users', async () => {
             const bodyData = createRandomUsersWithFaker();
@@ -22,9 +21,7 @@ describe('Users', () => {
             console.log(postResponse.body);
 
         });
-
     });
-
 
     describe('GET -Get the created user', () => {
         it('/users/:id', async () => {
@@ -38,7 +35,6 @@ describe('Users', () => {
 
         });
     });
-
 
     describe('PUT -Update the created user', () => {
         it('users/:id', async () => {
@@ -58,7 +54,6 @@ describe('Users', () => {
             expect(putResponse.body).toMatchObject(putBody);
         });
     });
-
 
     describe('PATCH -Partially update the created user', () => {
         it('users/:id', async () => {
