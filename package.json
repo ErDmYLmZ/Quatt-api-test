@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
- 
   "scripts": {
     "test": "node_modules/.bin/jest --coverage"
   },
@@ -18,16 +17,10 @@
     "@babel/register": "^7.23.7",
     "@faker-js/faker": "^8.4.1",
     "jest": "^29.7.0",
-    "jest-html-reporter": "^3.10.2",
     "supertest": "^6.3.4"
   },
   "dependencies": {
     "@babel/plugin-transform-runtime": "^7.24.3",
     "dotenv": "^16.4.5"
-  },
-  "jesthtmlreporter.config.json":{
-    "pageTitle": "HTML Report",
-    "outputPath": "report.html",
-    "includeFailureMsg": true
-   }
+  }
 }

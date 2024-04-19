@@ -22,6 +22,10 @@ Use JavaScript and a framework of your choice (currently we use Jest and Superte
 
    ● Run "npm install" to update the dependencies in the package.json.
 
+   ● Confirm the successful installation by running the following commands in the terminal "node -v", "npm -v" and "npm ls jest". 
+
+   ● In case of an unsuccessful installation use "npm install <name>" to install manually. 
+   
 ## Usage:
    ● To run all the tests via Terminal, open the Terminal and typ "npm run test".
 
