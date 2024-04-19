@@ -20,8 +20,6 @@ Use JavaScript and a framework of your choice (currently we use Jest and Superte
 
    ● Install NodeJS(The Latest LTS version should be sufficient) unless it was not installed.
 
-   ● Install NPM unless it was not installed.
-
    ● Run "npm install" to update the dependencies in the package.json.
 
 ## Usage:
